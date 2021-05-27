@@ -2,12 +2,16 @@ package com.example.kickboard_helmet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import androidx.core.content.ContextCompat;
+import androidx.core.app.ActivityCompat;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;

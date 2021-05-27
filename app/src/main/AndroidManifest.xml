@@ -15,6 +15,7 @@
     <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
 
     <application
+
         android:hardwareAccelerated="true"
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
@@ -31,6 +32,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--        <uses-library android:name="android.support.v4/content/ContextCompat"-->
+<!--            android:required="false"/>-->
     </application>
 
 </manifest>
